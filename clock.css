@@ -1,0 +1,64 @@
+/* style.css */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  width: 350px;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+#time {
+  display: block;
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+#lapBtn {
+  background-color: gray;
+  color: white;
+}
+
+#startBtn {
+  background-color: green;
+  color: white;
+}
+
+.stop {
+  background-color: red !important;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+li {
+  padding: 8px;
+  border-bottom: 1px solid white;
+}
